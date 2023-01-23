@@ -1,1 +1,295 @@
 build/*/**
+.dart_tool
+.dart_tool/package_config_subset
+.dart_tool/package_config.json
+.dart_tool/version
+.dart_tool/chrome-device/Default/Affiliation Database
+.dart_tool/chrome-device/Default/Affiliation Database-journal
+.dart_tool/chrome-device/Default/Cookies
+.dart_tool/chrome-device/Default/Cookies-journal
+.dart_tool/chrome-device/Default/Favicons
+.dart_tool/chrome-device/Default/Favicons-journal
+.dart_tool/chrome-device/Default/Google Profile Picture.png
+.dart_tool/chrome-device/Default/heavy_ad_intervention_opt_out.db
+.dart_tool/chrome-device/Default/heavy_ad_intervention_opt_out.db-journal
+.dart_tool/chrome-device/Default/History
+.dart_tool/chrome-device/Default/History-journal
+.dart_tool/chrome-device/Default/LOCK
+.dart_tool/chrome-device/Default/LOG
+.dart_tool/chrome-device/Default/LOG.old
+.dart_tool/chrome-device/Default/Login Data
+.dart_tool/chrome-device/Default/Login Data For Account
+.dart_tool/chrome-device/Default/Login Data For Account-journal
+.dart_tool/chrome-device/Default/Login Data-journal
+.dart_tool/chrome-device/Default/Network Action Predictor
+.dart_tool/chrome-device/Default/Network Action Predictor-journal
+.dart_tool/chrome-device/Default/Network Persistent State
+.dart_tool/chrome-device/Default/Preferences
+.dart_tool/chrome-device/Default/PreferredApps
+.dart_tool/chrome-device/Default/README
+.dart_tool/chrome-device/Default/Reporting and NEL
+.dart_tool/chrome-device/Default/Reporting and NEL-journal
+.dart_tool/chrome-device/Default/Safe Browsing Cookies
+.dart_tool/chrome-device/Default/Safe Browsing Cookies-journal
+.dart_tool/chrome-device/Default/Secure Preferences
+.dart_tool/chrome-device/Default/Shortcuts
+.dart_tool/chrome-device/Default/Shortcuts-journal
+.dart_tool/chrome-device/Default/Top Sites
+.dart_tool/chrome-device/Default/Top Sites-journal
+.dart_tool/chrome-device/Default/TransportSecurity
+.dart_tool/chrome-device/Default/trusted_vault.pb
+.dart_tool/chrome-device/Default/Visited Links
+.dart_tool/chrome-device/Default/Web Data
+.dart_tool/chrome-device/Default/Web Data-journal
+.dart_tool/chrome-device/Default/Accounts/Avatar Images/108189981100068060805
+.dart_tool/chrome-device/Default/AutofillStrikeDatabase/LOCK
+.dart_tool/chrome-device/Default/AutofillStrikeDatabase/LOG
+.dart_tool/chrome-device/Default/AutofillStrikeDatabase/LOG.old
+.dart_tool/chrome-device/Default/BudgetDatabase/LOCK
+.dart_tool/chrome-device/Default/BudgetDatabase/LOG
+.dart_tool/chrome-device/Default/BudgetDatabase/LOG.old
+.dart_tool/chrome-device/Default/Download Service/EntryDB/LOCK
+.dart_tool/chrome-device/Default/Download Service/EntryDB/LOG
+.dart_tool/chrome-device/Default/Download Service/EntryDB/LOG.old
+.dart_tool/chrome-device/Default/Extension Scripts/000003.log
+.dart_tool/chrome-device/Default/Extension Scripts/CURRENT
+.dart_tool/chrome-device/Default/Extension Scripts/LOCK
+.dart_tool/chrome-device/Default/Extension Scripts/LOG
+.dart_tool/chrome-device/Default/Extension Scripts/MANIFEST-000001
+.dart_tool/chrome-device/Default/Extension State/000003.log
+.dart_tool/chrome-device/Default/Extension State/CURRENT
+.dart_tool/chrome-device/Default/Extension State/LOCK
+.dart_tool/chrome-device/Default/Extension State/LOG
+.dart_tool/chrome-device/Default/Extension State/LOG.old
+.dart_tool/chrome-device/Default/Extension State/MANIFEST-000001
+.dart_tool/chrome-device/Default/Feature Engagement Tracker/AvailabilityDB/LOCK
+.dart_tool/chrome-device/Default/Feature Engagement Tracker/AvailabilityDB/LOG
+.dart_tool/chrome-device/Default/Feature Engagement Tracker/AvailabilityDB/LOG.old
+.dart_tool/chrome-device/Default/Feature Engagement Tracker/EventDB/LOCK
+.dart_tool/chrome-device/Default/Feature Engagement Tracker/EventDB/LOG
+.dart_tool/chrome-device/Default/Feature Engagement Tracker/EventDB/LOG.old
+.dart_tool/chrome-device/Default/GCM Store/000003.log
+.dart_tool/chrome-device/Default/GCM Store/CURRENT
+.dart_tool/chrome-device/Default/GCM Store/LOCK
+.dart_tool/chrome-device/Default/GCM Store/LOG
+.dart_tool/chrome-device/Default/GCM Store/LOG.old
+.dart_tool/chrome-device/Default/GCM Store/MANIFEST-000001
+.dart_tool/chrome-device/Default/GCM Store/Encryption/000003.log
+.dart_tool/chrome-device/Default/GCM Store/Encryption/CURRENT
+.dart_tool/chrome-device/Default/GCM Store/Encryption/LOCK
+.dart_tool/chrome-device/Default/GCM Store/Encryption/LOG
+.dart_tool/chrome-device/Default/GCM Store/Encryption/LOG.old
+.dart_tool/chrome-device/Default/GCM Store/Encryption/MANIFEST-000001
+.dart_tool/chrome-device/Default/IndexedDB/http_localhost_3000.indexeddb.leveldb/000003.log
+.dart_tool/chrome-device/Default/IndexedDB/http_localhost_3000.indexeddb.leveldb/CURRENT
+.dart_tool/chrome-device/Default/IndexedDB/http_localhost_3000.indexeddb.leveldb/LOCK
+.dart_tool/chrome-device/Default/IndexedDB/http_localhost_3000.indexeddb.leveldb/LOG
+.dart_tool/chrome-device/Default/IndexedDB/http_localhost_3000.indexeddb.leveldb/LOG.old
+.dart_tool/chrome-device/Default/IndexedDB/http_localhost_3000.indexeddb.leveldb/MANIFEST-000001
+.dart_tool/chrome-device/Default/Local Storage/leveldb/000003.log
+.dart_tool/chrome-device/Default/Local Storage/leveldb/CURRENT
+.dart_tool/chrome-device/Default/Local Storage/leveldb/LOCK
+.dart_tool/chrome-device/Default/Local Storage/leveldb/LOG
+.dart_tool/chrome-device/Default/Local Storage/leveldb/LOG.old
+.dart_tool/chrome-device/Default/Local Storage/leveldb/MANIFEST-000001
+.dart_tool/chrome-device/Default/Segmentation Platform/SegmentInfoDB/LOCK
+.dart_tool/chrome-device/Default/Segmentation Platform/SegmentInfoDB/LOG
+.dart_tool/chrome-device/Default/Segmentation Platform/SegmentInfoDB/LOG.old
+.dart_tool/chrome-device/Default/Segmentation Platform/SignalDB/LOCK
+.dart_tool/chrome-device/Default/Segmentation Platform/SignalDB/LOG
+.dart_tool/chrome-device/Default/Segmentation Platform/SignalDB/LOG.old
+.dart_tool/chrome-device/Default/Segmentation Platform/SignalStorageConfigDB/LOCK
+.dart_tool/chrome-device/Default/Segmentation Platform/SignalStorageConfigDB/LOG
+.dart_tool/chrome-device/Default/Segmentation Platform/SignalStorageConfigDB/LOG.old
+.dart_tool/chrome-device/Default/Service Worker/Database/000003.log
+.dart_tool/chrome-device/Default/Service Worker/Database/CURRENT
+.dart_tool/chrome-device/Default/Service Worker/Database/LOCK
+.dart_tool/chrome-device/Default/Service Worker/Database/LOG
+.dart_tool/chrome-device/Default/Service Worker/Database/LOG.old
+.dart_tool/chrome-device/Default/Service Worker/Database/MANIFEST-000001
+.dart_tool/chrome-device/Default/Service Worker/ScriptCache/2cc80dabc69f58b6_0
+.dart_tool/chrome-device/Default/Service Worker/ScriptCache/4cb013792b196a35_0
+.dart_tool/chrome-device/Default/Service Worker/ScriptCache/ba23d8ecda68de77_0
+.dart_tool/chrome-device/Default/Service Worker/ScriptCache/f1cdccba37924bda_0
+.dart_tool/chrome-device/Default/Service Worker/ScriptCache/index
+.dart_tool/chrome-device/Default/Service Worker/ScriptCache/index-dir/the-real-index
+.dart_tool/chrome-device/Default/Session Storage/000003.log
+.dart_tool/chrome-device/Default/Session Storage/CURRENT
+.dart_tool/chrome-device/Default/Session Storage/LOCK
+.dart_tool/chrome-device/Default/Session Storage/LOG
+.dart_tool/chrome-device/Default/Session Storage/LOG.old
+.dart_tool/chrome-device/Default/Session Storage/MANIFEST-000001
+.dart_tool/chrome-device/Default/Sessions/Session_13318976842676605
+.dart_tool/chrome-device/Default/Sessions/Session_13318978202557472
+.dart_tool/chrome-device/Default/Sessions/Session_13318978384358963
+.dart_tool/chrome-device/Default/Sessions/Session_13318978540816990
+.dart_tool/chrome-device/Default/Sessions/Tabs_13318977228243981
+.dart_tool/chrome-device/Default/Sessions/Tabs_13318978203181004
+.dart_tool/chrome-device/Default/Sessions/Tabs_13318978384955172
+.dart_tool/chrome-device/Default/Sessions/Tabs_13318978541423712
+.dart_tool/chrome-device/Default/Site Characteristics Database/000003.log
+.dart_tool/chrome-device/Default/Site Characteristics Database/CURRENT
+.dart_tool/chrome-device/Default/Site Characteristics Database/LOCK
+.dart_tool/chrome-device/Default/Site Characteristics Database/LOG
+.dart_tool/chrome-device/Default/Site Characteristics Database/LOG.old
+.dart_tool/chrome-device/Default/Site Characteristics Database/MANIFEST-000001
+.dart_tool/chrome-device/Default/Sync Data/Nigori.bin
+.dart_tool/chrome-device/Default/Sync Data/LevelDB/000003.log
+.dart_tool/chrome-device/Default/Sync Data/LevelDB/CURRENT
+.dart_tool/chrome-device/Default/Sync Data/LevelDB/LOCK
+.dart_tool/chrome-device/Default/Sync Data/LevelDB/LOG
+.dart_tool/chrome-device/Default/Sync Data/LevelDB/LOG.old
+.dart_tool/chrome-device/Default/Sync Data/LevelDB/MANIFEST-000001
+.dart_tool/chrome-device/Default/WebStorage/QuotaManager
+.dart_tool/chrome-device/Default/WebStorage/QuotaManager-journal
+.dart_tool/chrome-device/Default/commerce_subscription_db/LOCK
+.dart_tool/chrome-device/Default/commerce_subscription_db/LOG
+.dart_tool/chrome-device/Default/commerce_subscription_db/LOG.old
+.dart_tool/chrome-device/Default/coupon_db/LOCK
+.dart_tool/chrome-device/Default/coupon_db/LOG
+.dart_tool/chrome-device/Default/coupon_db/LOG.old
+.dart_tool/chrome-device/Default/databases/Databases.db
+.dart_tool/chrome-device/Default/databases/Databases.db-journal
+.dart_tool/chrome-device/Default/optimization_guide_hint_cache_store/LOCK
+.dart_tool/chrome-device/Default/optimization_guide_hint_cache_store/LOG
+.dart_tool/chrome-device/Default/optimization_guide_hint_cache_store/LOG.old
+.dart_tool/chrome-device/Default/optimization_guide_model_metadata_store/LOCK
+.dart_tool/chrome-device/Default/optimization_guide_model_metadata_store/LOG
+.dart_tool/chrome-device/Default/optimization_guide_model_metadata_store/LOG.old
+.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/3002a417-7c82-4957-9868-2d7666b06beb/model.tflite
+.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/447f7952-b5f0-41e6-889b-05dad4b918bc/model.tflite
+.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/568a1034-4c48-48fa-8514-6a2f45881472/model.tflite
+.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/80ce028a-b41c-4009-94d6-e4869d8c1be8/model.tflite
+.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/9e2097eb-23e5-47d4-ab87-10008e23dd1e/model.tflite
+.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/af0cdf56-dc0f-4eba-a90b-1a8792639936/model.tflite
+.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/b9a2fcee-ce14-4bb6-aad9-ec67a2759f79/model.tflite
+.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/d8c1e844-e710-4148-ac47-93122d751de2/model.tflite
+.dart_tool/chrome-device/Default/shared_proto_db/000003.log
+.dart_tool/chrome-device/Default/shared_proto_db/CURRENT
+.dart_tool/chrome-device/Default/shared_proto_db/LOCK
+.dart_tool/chrome-device/Default/shared_proto_db/LOG
+.dart_tool/chrome-device/Default/shared_proto_db/LOG.old
+.dart_tool/chrome-device/Default/shared_proto_db/MANIFEST-000001
+.dart_tool/chrome-device/Default/shared_proto_db/metadata/000003.log
+.dart_tool/chrome-device/Default/shared_proto_db/metadata/CURRENT
+.dart_tool/chrome-device/Default/shared_proto_db/metadata/LOCK
+.dart_tool/chrome-device/Default/shared_proto_db/metadata/LOG
+.dart_tool/chrome-device/Default/shared_proto_db/metadata/LOG.old
+.dart_tool/chrome-device/Default/shared_proto_db/metadata/MANIFEST-000001
+.dart_tool/dartpad/web_plugin_registrant.dart
+.dart_tool/flutter_build/dart_plugin_registrant.dart
+.dart_tool/flutter_build/18ec389f4ea949de65fd6edcdad74192/.filecache
+.dart_tool/flutter_build/18ec389f4ea949de65fd6edcdad74192/app.dill
+.dart_tool/flutter_build/18ec389f4ea949de65fd6edcdad74192/app.dill.deps
+.dart_tool/flutter_build/18ec389f4ea949de65fd6edcdad74192/dart2js.d
+.dart_tool/flutter_build/18ec389f4ea949de65fd6edcdad74192/dart2js.stamp
+.dart_tool/flutter_build/18ec389f4ea949de65fd6edcdad74192/flutter_assets.d
+.dart_tool/flutter_build/18ec389f4ea949de65fd6edcdad74192/gen_localizations.stamp
+.dart_tool/flutter_build/18ec389f4ea949de65fd6edcdad74192/main.dart
+.dart_tool/flutter_build/18ec389f4ea949de65fd6edcdad74192/main.dart.js
+.dart_tool/flutter_build/18ec389f4ea949de65fd6edcdad74192/main.dart.js.deps
+.dart_tool/flutter_build/18ec389f4ea949de65fd6edcdad74192/main.dart.js.map
+.dart_tool/flutter_build/18ec389f4ea949de65fd6edcdad74192/outputs.json
+.dart_tool/flutter_build/18ec389f4ea949de65fd6edcdad74192/service_worker.d
+.dart_tool/flutter_build/18ec389f4ea949de65fd6edcdad74192/web_entrypoint.stamp
+.dart_tool/flutter_build/18ec389f4ea949de65fd6edcdad74192/web_plugin_registrant.dart
+.dart_tool/flutter_build/18ec389f4ea949de65fd6edcdad74192/web_release_bundle.stamp
+.dart_tool/flutter_build/18ec389f4ea949de65fd6edcdad74192/web_resources.d
+.dart_tool/flutter_build/18ec389f4ea949de65fd6edcdad74192/web_service_worker.stamp
+.dart_tool/flutter_build/18ec389f4ea949de65fd6edcdad74192/web_static_assets.stamp
+.dart_tool/flutter_build/1dc11fe148b0ed764caf505993d01861/.filecache
+.dart_tool/flutter_build/1dc11fe148b0ed764caf505993d01861/app.dill
+.dart_tool/flutter_build/1dc11fe148b0ed764caf505993d01861/app.dill.deps
+.dart_tool/flutter_build/1dc11fe148b0ed764caf505993d01861/dart2js.d
+.dart_tool/flutter_build/1dc11fe148b0ed764caf505993d01861/dart2js.stamp
+.dart_tool/flutter_build/1dc11fe148b0ed764caf505993d01861/flutter_assets.d
+.dart_tool/flutter_build/1dc11fe148b0ed764caf505993d01861/gen_localizations.stamp
+.dart_tool/flutter_build/1dc11fe148b0ed764caf505993d01861/main.dart
+.dart_tool/flutter_build/1dc11fe148b0ed764caf505993d01861/main.dart.js
+.dart_tool/flutter_build/1dc11fe148b0ed764caf505993d01861/main.dart.js.deps
+.dart_tool/flutter_build/1dc11fe148b0ed764caf505993d01861/main.dart.js.map
+.dart_tool/flutter_build/1dc11fe148b0ed764caf505993d01861/outputs.json
+.dart_tool/flutter_build/1dc11fe148b0ed764caf505993d01861/service_worker.d
+.dart_tool/flutter_build/1dc11fe148b0ed764caf505993d01861/web_entrypoint.stamp
+.dart_tool/flutter_build/1dc11fe148b0ed764caf505993d01861/web_plugin_registrant.dart
+.dart_tool/flutter_build/1dc11fe148b0ed764caf505993d01861/web_release_bundle.stamp
+.dart_tool/flutter_build/1dc11fe148b0ed764caf505993d01861/web_resources.d
+.dart_tool/flutter_build/1dc11fe148b0ed764caf505993d01861/web_service_worker.stamp
+.dart_tool/flutter_build/1dc11fe148b0ed764caf505993d01861/web_static_assets.stamp
+.dart_tool/flutter_build/41bd2004662fcb065c69fe8a8316fd10/.filecache
+.dart_tool/flutter_build/41bd2004662fcb065c69fe8a8316fd10/app.dill
+.dart_tool/flutter_build/41bd2004662fcb065c69fe8a8316fd10/compile_macos_framework.stamp
+.dart_tool/flutter_build/41bd2004662fcb065c69fe8a8316fd10/flutter_assets.d
+.dart_tool/flutter_build/41bd2004662fcb065c69fe8a8316fd10/gen_dart_plugin_registrant.stamp
+.dart_tool/flutter_build/41bd2004662fcb065c69fe8a8316fd10/gen_localizations.stamp
+.dart_tool/flutter_build/41bd2004662fcb065c69fe8a8316fd10/kernel_snapshot.d
+.dart_tool/flutter_build/41bd2004662fcb065c69fe8a8316fd10/kernel_snapshot.stamp
+.dart_tool/flutter_build/41bd2004662fcb065c69fe8a8316fd10/outputs.json
+.dart_tool/flutter_build/41bd2004662fcb065c69fe8a8316fd10/release_macos_bundle_flutter_assets.stamp
+.dart_tool/flutter_build/41bd2004662fcb065c69fe8a8316fd10/release_unpack_macos.stamp
+.dart_tool/flutter_build/41bd2004662fcb065c69fe8a8316fd10/App.framework/App
+.dart_tool/flutter_build/41bd2004662fcb065c69fe8a8316fd10/arm64/snapshot_assembly.o
+.dart_tool/flutter_build/41bd2004662fcb065c69fe8a8316fd10/arm64/snapshot_assembly.S
+.dart_tool/flutter_build/41bd2004662fcb065c69fe8a8316fd10/arm64/App.framework/App
+.dart_tool/flutter_build/41bd2004662fcb065c69fe8a8316fd10/x86_64/snapshot_assembly.o
+.dart_tool/flutter_build/41bd2004662fcb065c69fe8a8316fd10/x86_64/snapshot_assembly.S
+.dart_tool/flutter_build/41bd2004662fcb065c69fe8a8316fd10/x86_64/App.framework/App
+.dart_tool/flutter_build/504986b12ed097198c31e6be8d1e093b/.filecache
+.dart_tool/flutter_build/504986b12ed097198c31e6be8d1e093b/app.dill
+.dart_tool/flutter_build/504986b12ed097198c31e6be8d1e093b/compile_macos_framework.stamp
+.dart_tool/flutter_build/504986b12ed097198c31e6be8d1e093b/flutter_assets.d
+.dart_tool/flutter_build/504986b12ed097198c31e6be8d1e093b/gen_dart_plugin_registrant.stamp
+.dart_tool/flutter_build/504986b12ed097198c31e6be8d1e093b/gen_localizations.stamp
+.dart_tool/flutter_build/504986b12ed097198c31e6be8d1e093b/kernel_snapshot.d
+.dart_tool/flutter_build/504986b12ed097198c31e6be8d1e093b/kernel_snapshot.stamp
+.dart_tool/flutter_build/504986b12ed097198c31e6be8d1e093b/outputs.json
+.dart_tool/flutter_build/504986b12ed097198c31e6be8d1e093b/release_macos_bundle_flutter_assets.stamp
+.dart_tool/flutter_build/504986b12ed097198c31e6be8d1e093b/release_unpack_macos.stamp
+.dart_tool/flutter_build/504986b12ed097198c31e6be8d1e093b/App.framework/App
+.dart_tool/flutter_build/504986b12ed097198c31e6be8d1e093b/arm64/snapshot_assembly.o
+.dart_tool/flutter_build/504986b12ed097198c31e6be8d1e093b/arm64/snapshot_assembly.S
+.dart_tool/flutter_build/504986b12ed097198c31e6be8d1e093b/arm64/App.framework/App
+.dart_tool/flutter_build/504986b12ed097198c31e6be8d1e093b/x86_64/snapshot_assembly.o
+.dart_tool/flutter_build/504986b12ed097198c31e6be8d1e093b/x86_64/snapshot_assembly.S
+.dart_tool/flutter_build/504986b12ed097198c31e6be8d1e093b/x86_64/App.framework/App
+.dart_tool/flutter_build/5e27fc121924702c701e70b4f03e73a3/.filecache
+.dart_tool/flutter_build/5e27fc121924702c701e70b4f03e73a3/app.dill
+.dart_tool/flutter_build/5e27fc121924702c701e70b4f03e73a3/debug_android_application.stamp
+.dart_tool/flutter_build/5e27fc121924702c701e70b4f03e73a3/flutter_assets.d
+.dart_tool/flutter_build/5e27fc121924702c701e70b4f03e73a3/gen_dart_plugin_registrant.stamp
+.dart_tool/flutter_build/5e27fc121924702c701e70b4f03e73a3/gen_localizations.stamp
+.dart_tool/flutter_build/5e27fc121924702c701e70b4f03e73a3/kernel_snapshot.d
+.dart_tool/flutter_build/5e27fc121924702c701e70b4f03e73a3/kernel_snapshot.stamp
+.dart_tool/flutter_build/5e27fc121924702c701e70b4f03e73a3/outputs.json
+.dart_tool/flutter_build/6f9541006f33b1448289914ceb62f02e/.filecache
+.dart_tool/flutter_build/6f9541006f33b1448289914ceb62f02e/app.dill
+.dart_tool/flutter_build/6f9541006f33b1448289914ceb62f02e/app.dill.deps
+.dart_tool/flutter_build/6f9541006f33b1448289914ceb62f02e/dart2js.d
+.dart_tool/flutter_build/6f9541006f33b1448289914ceb62f02e/dart2js.stamp
+.dart_tool/flutter_build/6f9541006f33b1448289914ceb62f02e/flutter_assets.d
+.dart_tool/flutter_build/6f9541006f33b1448289914ceb62f02e/gen_localizations.stamp
+.dart_tool/flutter_build/6f9541006f33b1448289914ceb62f02e/main.dart
+.dart_tool/flutter_build/6f9541006f33b1448289914ceb62f02e/main.dart.js
+.dart_tool/flutter_build/6f9541006f33b1448289914ceb62f02e/main.dart.js.deps
+.dart_tool/flutter_build/6f9541006f33b1448289914ceb62f02e/main.dart.js.map
+.dart_tool/flutter_build/6f9541006f33b1448289914ceb62f02e/outputs.json
+.dart_tool/flutter_build/6f9541006f33b1448289914ceb62f02e/service_worker.d
+.dart_tool/flutter_build/6f9541006f33b1448289914ceb62f02e/web_entrypoint.stamp
+.dart_tool/flutter_build/6f9541006f33b1448289914ceb62f02e/web_plugin_registrant.dart
+.dart_tool/flutter_build/6f9541006f33b1448289914ceb62f02e/web_release_bundle.stamp
+.dart_tool/flutter_build/6f9541006f33b1448289914ceb62f02e/web_resources.d
+.dart_tool/flutter_build/6f9541006f33b1448289914ceb62f02e/web_service_worker.stamp
+.dart_tool/flutter_build/6f9541006f33b1448289914ceb62f02e/web_static_assets.stamp
+.dart_tool/flutter_build/c2057709f38b2a5d5fbda6d19a5c4ada/.filecache
+.dart_tool/flutter_build/c2057709f38b2a5d5fbda6d19a5c4ada/app.dill
+.dart_tool/flutter_build/c2057709f38b2a5d5fbda6d19a5c4ada/debug_app.cc
+.dart_tool/flutter_build/c2057709f38b2a5d5fbda6d19a5c4ada/debug_macos_bundle_flutter_assets.stamp
+.dart_tool/flutter_build/c2057709f38b2a5d5fbda6d19a5c4ada/debug_macos_framework.stamp
+.dart_tool/flutter_build/c2057709f38b2a5d5fbda6d19a5c4ada/debug_unpack_macos.stamp
+.dart_tool/flutter_build/c2057709f38b2a5d5fbda6d19a5c4ada/flutter_assets.d
+.dart_tool/flutter_build/c2057709f38b2a5d5fbda6d19a5c4ada/gen_dart_plugin_registrant.stamp
+.dart_tool/flutter_build/c2057709f38b2a5d5fbda6d19a5c4ada/gen_localizations.stamp
+.dart_tool/flutter_build/c2057709f38b2a5d5fbda6d19a5c4ada/kernel_snapshot.d
+.dart_tool/flutter_build/c2057709f38b2a5d5fbda6d19a5c4ada/kernel_snapshot.stamp
+.dart_tool/flutter_build/c2057709f38b2a5d5fbda6d19a5c4ada/outputs.json
+.dart_tool/flutter_build/c2057709f38b2a5d5fbda6d19a5c4ada/App.framework/App
