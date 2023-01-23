@@ -1,0 +1,67 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Mobile",
+            "type": "dart",
+            "request": "launch",
+            "flutterMode": "debug",
+            "program": "lib/main.dart",
+            "args": [
+                "--dart-define=backend_url=<REPLACE>",
+                "--dart-define=backend_api_key=<REPLACE>",
+                "--dart-define=backend_client_api_key=<REPLACE>",
+                "--dart-define=env_name=dev",
+            ]
+        },
+        {
+            "name": "macOS",
+            "type": "dart",
+            "request": "launch",
+            "flutterMode": "debug",
+            "program": "lib/main_desktop.dart",
+            "args": [
+                "-d",
+                "macos",
+                "--dart-define=backend_url=<REPLACE>",
+                "--dart-define=backend_api_key=<REPLACE>",
+                "--dart-define=backend_client_api_key=<REPLACE>",
+                "--dart-define=env_name=dev",
+            ]
+        },
+        {
+            "name": "Windows",
+            "type": "dart",
+            "request": "launch",
+            "flutterMode": "debug",
+            "program": "lib/main_desktop.dart",
+            "args": [
+                "-d",
+                "windows",
+                "--dart-define=backend_url=<REPLACE>",
+                "--dart-define=backend_api_key=<REPLACE>",
+                "--dart-define=backend_client_api_key=<REPLACE>",
+                "--dart-define=env_name=dev",
+            ]
+        },
+        {
+            "name": "Web",
+            "type": "dart",
+            "request": "launch",
+            "flutterMode": "debug",
+            "program": "lib/main_web.dart",
+            "args": [
+                "-d",
+                "chrome",
+                "--web-renderer",
+                "canvaskit",
+                "--web-port",
+                "3000",
+                "--dart-define=backend_url=<REPLACE>",
+                "--dart-define=backend_api_key=<REPLACE>",
+                "--dart-define=backend_client_api_key=<REPLACE>",
+                "--dart-define=env_name=dev",
+            ]
+        },
+    ]
+}
