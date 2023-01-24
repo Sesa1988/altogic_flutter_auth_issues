@@ -1,10 +1,12 @@
 import 'package:altogic/altogic.dart';
+import 'package:altogic_flutter_auth_issues/app_localizations.dart';
 import 'package:altogic_flutter_auth_issues/blocs/cloud_auth/cloud_auth_bloc.dart';
 import 'package:altogic_flutter_auth_issues/routes/named_routes.dart';
 import 'package:altogic_flutter_auth_issues/services/cloud_auth_service.dart';
 import 'package:altogic_flutter_auth_issues/screens/start_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 
 void runTestApp(CloudAuthService cloudAuthService) {
   runApp(BlocProvider<CloudAuthBloc>(
@@ -55,6 +57,25 @@ class _TestAppState extends AltogicState<TestApp> {
       ),
       initialRoute: StartScreen.routeName,
       routes: NamedRoutes.get(),
+      supportedLocales: const [
+        Locale('en', 'US'),
+        Locale('de', 'DE'),
+      ],
+      localizationsDelegates: const [
+        AppLocalizations.delegate,
+        GlobalMaterialLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+      ],
+      localeResolutionCallback: (locale, supportedLocales) {
+        for (var supportedLocale in supportedLocales) {
+          if (supportedLocale.languageCode == locale!.languageCode &&
+              supportedLocale.languageCode == locale.languageCode) {
+            return supportedLocale;
+          }
+        }
+        return supportedLocales.first;
+      },
     );
     return materialApp;
   }
